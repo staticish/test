@@ -4,7 +4,7 @@ export default function SecondPage(props) {
     <div>
       <section>
         <img
-          src={require("../../public/images/desktop-image-hero-2.jpg")}
+          src={require("../images/desktop-image-hero-2.jpg")}
           alt="chair"
         />
         <nav className="menu">
@@ -14,7 +14,7 @@ export default function SecondPage(props) {
               {" "}
               <img
                 className="menuIcon"
-                src={require("../../public/images/menuIcon.png")}
+                src={require("../images/menuIcon.png")}
                 alt="menuIcon"
                 height="20px"
               />
@@ -94,7 +94,7 @@ export default function SecondPage(props) {
         </div>
         <div className="bottomHalf">
           <img
-            src={require("../../public/images/image-about-dark.jpg")}
+            src={require("../images/image-about-dark.jpg")}
             alt="darkimage"
           />
           <div>
@@ -111,7 +111,7 @@ export default function SecondPage(props) {
             </p>
           </div>
           <img
-            src={require("../../public/images/image-about-light.jpg")}
+            src={require("../images/image-about-light.jpg")}
             alt="darkimage"
           />
         </div>
