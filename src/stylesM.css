@@ -1,0 +1,337 @@
+@media only screen and (max-width: 760px) {
+  body,
+  html {
+    margin: 0;
+  }
+  .body,
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(1, 31.5%);
+    grid-template-rows: repeat(4, 230px);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+  }
+  section > img {
+    grid-column: 1/ -1;
+    grid-row: 1/-1;
+    height: 320px;
+    width: 320%;
+  }
+
+  section > .menu {
+    grid-column: 1/ -1;
+    grid-row: 1/-1;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  img {
+    user-select: none;
+  }
+
+  /*   
+  .room {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-left: 55px;
+  } */
+  /* .menu > div {
+    margin-top: 55px;
+    word-spacing: 30px;
+  } */
+
+  .topRight,
+  .topRightAbout {
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+    display: grid;
+    grid-template-columns: repeat(1, 300%);
+    grid-template-rows: repeat(3, 50px);
+    /* grid-gap: 0px; */
+  }
+  .topRight > h1,
+  .topRightAbout > h1 {
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-top: 120px;
+    max-width: 100%;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+  }
+  .topRightAbout > h1 {
+    padding-right: 185px;
+  }
+
+  .topRight > p {
+    margin-top: 150px;
+    color: grey;
+    font-size: 12px;
+    line-height: 25px;
+    padding-left: 30px;
+    margin-left: auto;
+    max-width: 300px;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+  }
+  .topRight > span {
+    letter-spacing: 8px;
+    color: black;
+    margin-right: 35px;
+    margin-top: 230px;
+    margin-left: auto;
+  }
+  .topRightAbout > p {
+    color: grey;
+    font-size: 12px;
+    line-height: 17px;
+    margin-left: 30px;
+    max-width: 270px;
+    padding-left: 30px;
+    margin-left: auto;
+    max-width: 100%;
+  }
+
+  .arrow {
+    margin: 0px 20px;
+  }
+
+  .nav {
+    /* background: black; */
+    width: 118px;
+    margin-top: 15px;
+    padding-left: 13px;
+    margin-left: auto;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(2, 0px);
+  }
+
+  .nav > :nth-child(1) {
+    background: black;
+    height: 25px;
+    padding: 25px 30px;
+    width: 70px;
+  }
+  .nav > :nth-child(1):active,
+  .nav > :nth-child(2):active {
+    background: gray;
+  }
+
+  .nav > :nth-child(2) {
+    background: black;
+    height: 25px;
+    padding: 25px 20px;
+    width: 30px;
+
+    margin-left: 20px;
+  }
+
+  .bottomHalf {
+    display: grid;
+    grid-column: 1/-1;
+    grid-row: 4/-1;
+    grid-template-columns: repeat(2, 145%);
+    grid-template-rows: repeat(3, 250px);
+  }
+
+  /* .bottomHalf > :nth-child(1) {
+  
+  } */
+  .bottomHalf > img {
+    height: 300px;
+    width: 111%;
+  }
+  .bottomHalf > div {
+    grid-column: 1/-1;
+  }
+  .bottomHalf > :nth-child(1) {
+    grid-column: 1/-1;
+    margin-left: 0px;
+  }
+  .bottomHalf > :nth-child(3) {
+    grid-row: 3/-1;
+    grid-column: 1/-1;
+    margin-top: 120px;
+  }
+
+  .bottomHalf > div {
+    margin-left: 30px;
+    grid-row: 2/-1;
+  }
+  .bottomHalf > div > h1 {
+    font-size: 15px;
+    margin-top: 90px;
+    max-width: 200px;
+  }
+
+  .bottomHalf > div > p {
+    line-height: 25px;
+    color: grey;
+    max-width: 250px;
+    font-size: 12px;
+  }
+  nav {
+    letter-spacing: 1px;
+  }
+
+  .bottomShop {
+    display: grid;
+    grid-column: 1/-1;
+    grid-row: 4/-1;
+    width: 320%;
+    height: 300px;
+    user-select: none;
+  }
+
+  .elements {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    user-select: none;
+  }
+
+  .elements::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card {
+    font-size: 25px;
+    font-weight: bold;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    user-select: none;
+  }
+
+  a > img {
+    width: 95px;
+    height: 140px;
+    display: flex;
+    user-select: none;
+  }
+  a > img:active {
+    margin: 1px;
+    user-select: none;
+  }
+
+  .listBox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: 830px;
+    font-size: 7px;
+    right: 0px;
+    height: 155px;
+    width: 100%;
+    background: white;
+    border: solid black;
+    position: absolute;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+
+  .price {
+    position: absolute;
+    background: white;
+    width: 40px;
+    font-size: 15px;
+    height: 20px;
+    padding: 1px;
+    margin-left: 5px;
+    border-radius: 5px;
+  }
+
+  .list {
+    text-indent: 10px;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    letter-spacing: 1px;
+  }
+  .list > h3 {
+    margin-right: auto;
+    font-weight: 100;
+  }
+
+  .total {
+    font-size: 11px;
+    text-indent: 5px;
+    word-spacing: 13rem;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button {
+    font-weight: bold;
+    width: 50px;
+    font-size: 10px;
+    border-radius: 100px;
+    color: white;
+    background: grey;
+    border: none;
+  }
+  .menuIcon {
+    position: absolute;
+    top: 30px;
+  }
+
+  .menuList,
+  ul > li:nth-child(1) {
+    display: none;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 11px;
+    margin-left: 25px;
+    user-select: none;
+  }
+
+  .menuBar button {
+    border: 0;
+    background: transparent;
+  }
+
+  .menuBar button:focus + .menuList,
+  .menuList:active {
+    display: block;
+    position: absolute;
+    height: 50px;
+    width: 96%;
+    padding: 10px;
+    top: 0px;
+    color: black;
+    background: white;
+    user-select: none;
+  }
+
+  .menu > span {
+    margin: 30px 25px;
+  }
+  .menuList svg {
+    top: 25px;
+    left: 15px;
+    opacity: 20%;
+    position: absolute;
+    height: 25px;
+  }
+}
